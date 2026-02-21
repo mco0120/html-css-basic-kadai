@@ -1,0 +1,72 @@
+/* 親要素：紫色の広い箱 */
+#top {
+     width: 800px;
+     background-color: #dcc9f4;
+     margin: 20px auto; /* 上下に20pxの余白,左右はautoで中央配置 */
+     text-align: center;
+}
+/* 子要素：ピンク色の3つの箱 */
+.top-child {
+     width: 20%; /* 親要素の20%幅 */
+     background-color: #ffd9df;
+     display: inline-block; /* 3つの要素を横並び */
+}
+/* 親要素：ピンクの大きな正方形 */
+#middle {
+    width: 800px;
+    height: 800px;
+    background-color: #ffd9df;
+    margin: 20px auto; /* 上下に20px、左右中央に配置 */
+    position: relative;
+}
+#middle-child01,
+#middle-child02,
+#middle-child03 {
+    width: 200px;
+    height: 200px;
+    background-color: #87ceeb;
+    position: absolute;
+}
+
+#middle-child01 {
+    top: 100px;
+    left: 100px;
+}
+
+#middle-child02 {
+    top: 300px;
+    left: 300px;
+}
+
+#middle-child03 {
+    top: 500px;
+    left: 500px;
+}
+
+#bottom {
+    width: 800px;
+    height: 300px;
+    background-color: #87ceeb;
+    margin: 20px auto;
+}
+
+#bottom-child01, 
+#bottom-child02, 
+#bottom-child03 {
+    width: 400px; 
+    height: 100px; 
+    background-color: #e5dcf0;
+    position: relative;
+}
+
+#bottom-child01 { 
+    left: 0
+}
+
+#bottom-child02 { 
+    left: 200px;
+ } 
+
+#bottom-child03 {
+    left: 400px;
+} 
