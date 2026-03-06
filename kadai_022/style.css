@@ -57,14 +57,11 @@ h2 {
 
 }
 
-
-.dot {
-    color: rgb(239, 111, 139); 
-    font-size: 0.8em;       
-    vertical-align: middle; 
-    margin-right: 5px;      
+h2::before {
+    content: "●";                
+    color: rgb(239, 111, 139);   
+    margin-right: 5px;           
 }
-
 
 
 .contents p:nth-of-type(2)::first-letter {
